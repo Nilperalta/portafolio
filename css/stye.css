@@ -263,6 +263,7 @@ header .container-logo .logo{
     font-size: 2rem;
     color: #333;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .about .row .personal-info .box-container .box h3 span{
