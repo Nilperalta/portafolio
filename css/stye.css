@@ -30,6 +30,7 @@ html{
 }
 
 section{
+    /*border: 1rem solid red;*/
     min-height: 100vh;
     padding: 0 9%;
     padding-top: 7.5rem;
@@ -541,6 +542,12 @@ body{
   @media(max-width:768px){
     #menu{
         display: block;
+    }
+
+    .content{
+        /*border: 1rem solid red;*/
+        margin-top: 7.5rem;
+        /*padding-top: 7.5rem;*/
     }
 
     header .navbar{
