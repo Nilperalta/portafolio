@@ -493,6 +493,15 @@ header .container-logo .logo{
     margin-top: auto;
 }
 
+.links h3{
+    /*border: 0.5rem solid brown;*/
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #b87950;
+    text-transform: uppercase;
+    padding: 2px 0;
+}
+
 .links a{
     color: var(--agua);
     font-weight: 500;
