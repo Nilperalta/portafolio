@@ -454,9 +454,11 @@ header .container-logo .logo{
 
 .portfolio .box-container{
     /*border: 0.7rem solid red;*/
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 }
 
 .portfolio .box-container .box{
